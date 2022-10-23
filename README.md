@@ -4,6 +4,7 @@ Link:https://fahimahammed-cse.medium.com/deploy-an-express-api-on-vercel-eebc13a
 ## How to Create an Express API Server??
 First, Go to the site https://expressjs.com/en/starter/installing.html
 Secondly, According to the documentary, the tasks must be done step by step.
+
 ## Details
 ১. প্রথমে একটা Folder খুলতে হবে।[useing ($ mkdir myapp) on command prompt]
 এবং তারপরে cmd তে গিয়ে cd দিয়ে Folder এর ভিতরে যেতে হবে। যেমন: $ cd myapp
@@ -26,7 +27,7 @@ app.get('/', (req, res) => {
 })
 
 app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`)
+  console.log('Example app listening on port', port)
 })
 -----------------------------------------------------
                                                         
@@ -41,9 +42,10 @@ ii. ওয়েবসাইটে Api data ব্যবহার করার �
      $ npm install cors
 
     And Include the (index.js) file---
-------------------------------------
+
+-----------------------------------
     app.use(cors())
- -----------------------------------                  ]
+-----------------------------------                  ]
 
 iii. For deploy purpose, create a (.gitignore) file and write the code as below:
 ---------------
