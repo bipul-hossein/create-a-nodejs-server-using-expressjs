@@ -16,7 +16,7 @@ $ npm install express
 
 4. create a index.js file and write the code as below:
 
-[
+-----------------------------------------------------
 const express = require('express')
 const app = express()
 const port = 5000
@@ -28,8 +28,8 @@ app.get('/', (req, res) => {
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
-
-                                                        ]
+-----------------------------------------------------
+                                                        
 Extra--
 
 i. Update for Live Code_ Please Install nodemon for ever project.
@@ -37,15 +37,16 @@ i. Update for Live Code_ Please Install nodemon for ever project.
 ii. ওয়েবসাইটে Api data ব্যবহার করার জন্য cors install  করতে হবে।
     Go to --- expressjs.com and then > Resources > Middleware > cors
 
-    cmd Cors Install code -- $ npm install cors
+    > cmd Cors Install code --
+     $ npm install cors
 
     And Include the (index.js) file---
-    [
-    cost cors = require('cors');
+------------------------------------
     app.use(cors())
-                    ]
+ -----------------------------------                  ]
 
 iii. For deploy purpose, create a (.gitignore) file and write the code as below:
-[
+---------------
 /node_modules/
-                ]
+----------------  
+
