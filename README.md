@@ -17,7 +17,7 @@ $ npm install express
 
 4. create a index.js file and write the code as below:
 
------------------------------------------------------
+
 const express = require('express')
 const app = express()
 const port = 5000
@@ -29,7 +29,8 @@ app.get('/', (req, res) => {
 app.listen(port, () => {
   console.log('Example app listening on port', port)
 })
------------------------------------------------------
+  
+
                                                         
 Extra--
 
@@ -43,12 +44,12 @@ ii. ওয়েবসাইটে Api data ব্যবহার করার �
 
     And Include the (index.js) file---
 
------------------------------------
+
     app.use(cors())
------------------------------------                  ]
+                ]
 
 iii. For deploy purpose, create a (.gitignore) file and write the code as below:
----------------
+
 /node_modules/
-----------------  
+  
 
