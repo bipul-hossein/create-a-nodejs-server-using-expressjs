@@ -13,6 +13,7 @@ Secondly, According to the documentary, the tasks must be done step by step.
 $ npm init -y
 
 ৩. Now install Express in the myapp directory and save it in the dependencies list. For example:
+
 $ npm install express
 
 ৪. create a index.js file and write the code as below:
@@ -34,6 +35,7 @@ $ npm install express
 Extra--
 
 i. Update for Live Code_ Please Install nodemon for ever project.
+    $ npm install -g nodemon
 
 ii. ওয়েবসাইটে Api data ব্যবহার করার জন্য cors install  করতে হবে।
     Go to --- expressjs.com and then > Resources > Middleware > cors
@@ -43,12 +45,17 @@ ii. ওয়েবসাইটে Api data ব্যবহার করার �
 
     And Include the (index.js) file---
 
-
+    const cors = require('cors')
     app.use(cors())
                 
 
 iii. For deploy purpose, create a (.gitignore) file and write the code as below:
 
 /node_modules/
+
+-->For See the Server:
+$ node index.js
+or, $ nodemon index.js
+
   
 
