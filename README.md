@@ -10,12 +10,12 @@ Secondly, According to the documentary, the tasks must be done step by step.
 এবং তারপরে cmd তে গিয়ে cd দিয়ে Folder এর ভিতরে যেতে হবে। যেমন: $ cd myapp
 
 ২. Use the npm init command to create a package.json file for your application. 
-$ npm init
+$ npm init -y
 
-3. Now install Express in the myapp directory and save it in the dependencies list. For example:
+৩. Now install Express in the myapp directory and save it in the dependencies list. For example:
 $ npm install express
 
-4. create a index.js file and write the code as below:
+৪. create a index.js file and write the code as below:
 
 
     const express = require('express');
