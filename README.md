@@ -57,5 +57,6 @@ iii. For deploy purpose, create a (.gitignore) file and write the code as below:
 $ node index.js
 or, $ nodemon index.js
 
+iv. Go to package.json and write the code inside the scripts -- "start":"node index.js"
   
 
