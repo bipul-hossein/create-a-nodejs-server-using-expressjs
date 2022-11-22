@@ -1,6 +1,5 @@
-## How To Deploy an Express API on Vercel. Written by, [Fahim Ahammed Firoz](https://fahimahammed-cse.medium.com/deploy-an-express-api-on-vercel-eebc13ace629) vai 
- 
-### Customize by Bipul Hossain
+## Customize by Bipul Hossain
+### Based on the Doc [How To Deploy an Express API on Vercel.](https://fahimahammed-cse.medium.com/deploy-an-express-api-on-vercel-eebc13ace629)  Written by, [Fahim Ahammed Firoz](https://github.com/fahimahammed) vai 
 ## How to Create an Express API Server??
 * First, Go to the site [expressjs.com](https://expressjs.com/en/starter/installing.html)
 * Secondly, According to the documentary, the tasks must be done step by step.
