@@ -1,23 +1,34 @@
-## How To Deploy an Express API on Vercel.### Written by, [Fahim Ahammed Firoz](https://fahimahammed-cse.medium.com/deploy-an-express-api-on-vercel-eebc13ace629) vai 
-
+## How To Deploy an Express API on Vercel. Written by, [Fahim Ahammed Firoz](https://fahimahammed-cse.medium.com/deploy-an-express-api-on-vercel-eebc13ace629) vai 
+ 
+### Customize by Bipul Hossain
 ## How to Create an Express API Server??
-First, Go to the site [expressjs.com](https://expressjs.com/en/starter/installing.html)
-Secondly, According to the documentary, the tasks must be done step by step.
+*First, Go to the site [expressjs.com](https://expressjs.com/en/starter/installing.html)
+*Secondly, According to the documentary, the tasks must be done step by step.
 
 ## Details
-১. প্রথমে একটা Folder খুলতে হবে।[useing ($ mkdir myapp) on command prompt]
-এবং তারপরে cmd তে গিয়ে cd দিয়ে Folder এর ভিতরে যেতে হবে। যেমন: $ cd myapp
+i. প্রথমে একটা Folder খুলতে হবে।[useing ($ mkdir myapp) on command prompt]
+এবং তারপরে cmd তে গিয়ে cd দিয়ে Folder এর ভিতরে যেতে হবে। যেমন:
 
-২. Use the npm init command to create a package.json file for your application. 
-$ npm init -y
+```ruby
+cd myapp
 
-৩. Now install Express in the myapp directory and save it in the dependencies list. For example:
+```
 
-$ npm install express
+ii. Use the npm init command to create a package.json file for your application. 
 
-৪. create a index.js file and write the code as below:
+```ruby
+npm init -y
+```
 
+iii. Now install Express in the myapp directory and save it in the dependencies list. For example:
 
+```ruby
+npm install express
+```
+
+iv. create a index.js file and write the code as below:
+
+```ruby
     const express = require('express');
     const app = express();
     const port = 5000;
@@ -29,33 +40,47 @@ $ npm install express
     app.listen(port, () => {
     console.log('Example app listening on port', port);
     });
-
+    
+```
                                                         
 Extra--
 
 i. Update for Live Code_ Please Install nodemon for ever project.
-    $ npm install -g nodemon
 
+   ```ruby
+    npm install -g nodemon
+    ```
+    
 ii. ওয়েবসাইটে Api data ব্যবহার করার জন্য cors install  করতে হবে।
     Go to --- expressjs.com and then > Resources > Middleware > cors
 
     > cmd Cors Install code --
-     $ npm install cors
-
+   ```ruby 
+    npm install cors
+    ```
     And Include the (index.js) file---
-
+    ```ruby 
     const cors = require('cors')
     app.use(cors())
-                
+     ```           
 
 iii. For deploy purpose, create a (.gitignore) file and write the code as below:
 
+```
 /node_modules/
+```
 
 -->For See the Server:
-$ node index.js
-or, $ nodemon index.js
 
-iv. Go to package.json and write the code inside the scripts -- "start":"node index.js"
-  
+```ruby
+node index.js
+or,
+nodemon index.js
+```
+
+iv. Go to 'package.json' and write the code inside the 'scripts' --
+
+```ruby
+"start":"node index.js"
+ ``` 
 
