@@ -43,7 +43,7 @@ iv. create a index.js file and write the code as below:
     
 ```
                                                         
-Extra--
+Extra:
 
 i. Update for Live Code_ Please Install nodemon for ever project.
 
@@ -52,13 +52,13 @@ i. Update for Live Code_ Please Install nodemon for ever project.
     ```
     
 ii. ওয়েবসাইটে Api data ব্যবহার করার জন্য cors install  করতে হবে।
-    Go to --- [expressjs.com](https://expressjs.com/en/starter/installing.html) and then > Resources > Middleware > cors
-    cmd Cors Install code --
+    Go to [expressjs.com](https://expressjs.com/en/starter/installing.html) and then > Resources > Middleware > cors.
+    *cmd Cors Install code:
     
     ```ruby 
     npm install cors
     ```
-    And Include the (index.js) file---
+    *And Include the (index.js) file.
     
     ```ruby 
     const cors = require('cors')
@@ -71,17 +71,16 @@ iii. For deploy purpose, create a (.gitignore) file and write the code as below:
 /node_modules/
 ```
 
--->For See the Server:
+iv. Go to 'package.json' and write the code inside the 'scripts' :
+
+```ruby
+"start":"node index.js"
+ ``` 
+
+#### For See the Server:
 
 ```ruby
 node index.js
 or,
 nodemon index.js
 ```
-
-iv. Go to 'package.json' and write the code inside the 'scripts' --
-
-```ruby
-"start":"node index.js"
- ``` 
-
