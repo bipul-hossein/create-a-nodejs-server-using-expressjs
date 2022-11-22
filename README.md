@@ -2,8 +2,8 @@
  
 ### Customize by Bipul Hossain
 ## How to Create an Express API Server??
-*First, Go to the site [expressjs.com](https://expressjs.com/en/starter/installing.html)
-*Secondly, According to the documentary, the tasks must be done step by step.
+* First, Go to the site [expressjs.com](https://expressjs.com/en/starter/installing.html)
+* Secondly, According to the documentary, the tasks must be done step by step.
 
 ## Details
 i. প্রথমে একটা Folder খুলতে হবে।[useing ($ mkdir myapp) on command prompt]
@@ -53,7 +53,7 @@ i. Update for Live Code_ Please Install nodemon for ever project.
     
 ii. ওয়েবসাইটে Api data ব্যবহার করার জন্য cors install  করতে হবে।
     Go to [expressjs.com](https://expressjs.com/en/starter/installing.html) and then > Resources > Middleware > cors.
-    *cmd Cors Install code:
+    * cmd Cors Install code:
     
  ```ruby 
     npm install cors
@@ -82,6 +82,8 @@ iv. Go to 'package.json' and write the code inside the 'scripts' :
 
 ```ruby
 node index.js
+```
 or,
+```ruby
 nodemon index.js
 ```
